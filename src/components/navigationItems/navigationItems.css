@@ -1,0 +1,21 @@
+.navigation {
+  margin: 0 10px;
+  color: white;
+  font-size: 25px;
+}
+.navigation:hover {
+  text-decoration: none;
+}
+.navigation:active .navigation.active {
+  color: rgb(12, 26, 18);
+}
+._ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+._li {
+  margin: 0 10px;
+}

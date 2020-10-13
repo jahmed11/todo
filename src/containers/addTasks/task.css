@@ -1,0 +1,39 @@
+.todo {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 18px;
+  max-width: 600px;
+  width: 100%;
+}
+.items {
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 4px 4px;
+  background-color: rgb(145 189 193 / 99%);
+  width: 100%;
+  padding: 7px 0;
+}
+.item {
+  padding-left: 10px;
+  text-transform: capitalize;
+  list-style: none;
+  color: #000000;
+}
+.button {
+  border-radius: 50%;
+}
+.deleteButton {
+  margin-right: 2px;
+  border: none;
+  background-color: #92bec2;
+}
+.deleteButton:active {
+  outline: none;
+  border: none;
+}
+.trash:hover {
+  color: red;
+}
